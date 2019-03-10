@@ -69,6 +69,11 @@ ul
 	background:@headerBackground;
 }
 
+.header-wrapper
+{
+	padding-bottom:20px;
+}
+
 .footer-wrapper,
 .header-wrapper
 {
@@ -115,14 +120,16 @@ ul
 
 .main-author
 {
-	background: rgb(89,0,80);
-    background: linear-gradient(180deg, rgba(89,0,80,1) 0%, rgba(89,0,80,0.4990371148459384) 65%, rgba(89,0,80,0) 100%);
+	background:rgba(135, 135, 135, 0.35);
+	//background: rgb(89,0,80);
+    //background: linear-gradient(180deg, rgba(89,0,80,1) 0%, rgba(89,0,80,0.4990371148459384) 65%, rgba(89,0,80,0) 100%);
 }
 
 .main-author-wrapper
 {
 	.paddingCustom(55px,105px);
-	color:white;
+	//color:white;
+	color:black;
 	position:relative;
 	h2
 	{
@@ -142,9 +149,10 @@ ul
 		text-align: center;
 		padding-top:15px;
 		padding-bottom:15px;
-		background:#373737;;
-		color:white;
-		margin-bottom: 45px;
+		//background:#373737;
+		background:rgba(135, 135, 135, 0.35);
+		color:black;
+		margin-bottom: 55px;
 	}
 	.paddingCustom(105px,105px);
 	ul
@@ -169,11 +177,22 @@ ul
 				color:white;
 				text-decoration: none;
 				transition-duration: 350ms;
+
+				&:hover
+				{
+					color:black;
+				}
+
+				&:active
+				{
+					color:white;
+				}
 			}
 			&:hover
 			{	
 				transition-duration: 150ms;
-				background:rgba(25, 25, 25, 0.75);
+				//background:rgba(25, 25, 25, 0.75);
+				background:rgba(135, 135, 135, 0.35);
 				box-shadow: 0 18px 32px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.42);
 			}
 
@@ -185,12 +204,12 @@ ul
 		}
 		.first-line
 		{
-			width:30%;
+			width:33%;
 		}
 
 		.second-line
 		{
-			width:49%;
+			width:49.75%;
 		}
 	}
 }

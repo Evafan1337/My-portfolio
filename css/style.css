@@ -29,6 +29,9 @@ ul {
 .header-page {
   background: #590050;
 }
+.header-wrapper {
+  padding-bottom: 20px;
+}
 .footer-wrapper,
 .header-wrapper {
   display: flex;
@@ -75,13 +78,12 @@ ul {
   margin-bottom: 0px;
 }
 .main-author {
-  background: #590050;
-  background: linear-gradient(180deg, #590050 0%, rgba(89, 0, 80, 0.49903711) 65%, rgba(89, 0, 80, 0) 100%);
+  background: rgba(135, 135, 135, 0.35);
 }
 .main-author-wrapper {
   padding-top: 55px;
   padding-bottom: 105px;
-  color: white;
+  color: black;
   position: relative;
 }
 .main-author-wrapper h2 {
@@ -98,9 +100,9 @@ ul {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #373737;
-  color: white;
-  margin-bottom: 45px;
+  background: rgba(135, 135, 135, 0.35);
+  color: black;
+  margin-bottom: 55px;
 }
 .main-content-center ul {
   display: flex;
@@ -125,9 +127,15 @@ ul {
   text-decoration: none;
   transition-duration: 350ms;
 }
+.main-content-center ul li a:hover {
+  color: black;
+}
+.main-content-center ul li a:active {
+  color: white;
+}
 .main-content-center ul li:hover {
   transition-duration: 150ms;
-  background: rgba(25, 25, 25, 0.75);
+  background: rgba(135, 135, 135, 0.35);
   box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.42);
 }
 .main-content-center ul li:active {
@@ -135,10 +143,10 @@ ul {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45), 0 10px 10px rgba(0, 0, 0, 0.42);
 }
 .main-content-center ul .first-line {
-  width: 30%;
+  width: 33%;
 }
 .main-content-center ul .second-line {
-  width: 49%;
+  width: 49.75%;
 }
 .main-content-right,
 .main-content-left {
