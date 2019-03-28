@@ -1,5 +1,6 @@
 
 @headerBackground:#590050;
+@colouredBackground:rgba(135,135,135,0.35);
 @buttonHover:#8666C6;
 
 body
@@ -120,7 +121,8 @@ ul
 
 .main-author
 {
-	background:rgba(135, 135, 135, 0.35);
+	//background:rgba(135, 135, 135, 0.35);
+	background:@colouredBackground;
 	//background: rgb(89,0,80);
     //background: linear-gradient(180deg, rgba(89,0,80,1) 0%, rgba(89,0,80,0.4990371148459384) 65%, rgba(89,0,80,0) 100%);
 }
@@ -139,7 +141,8 @@ ul
 
 .main-page-coloured
 {
-	background:rgba(135, 135, 135, 0.35);
+	background:@colouredBackground;
+	//background:rgba(135, 135, 135, 0.35);
 }
 
 .main-content-center
@@ -150,7 +153,8 @@ ul
 		padding-top:15px;
 		padding-bottom:15px;
 		//background:#373737;
-		background:rgba(135, 135, 135, 0.35);
+		background:@colouredBackground;
+		//background:rgba(135, 135, 135, 0.35);
 		color:black;
 		margin-bottom: 55px;
 	}
@@ -192,6 +196,7 @@ ul
 			{	
 				transition-duration: 150ms;
 				//background:rgba(25, 25, 25, 0.75);
+				background:@colouredBackground;
 				background:rgba(135, 135, 135, 0.35);
 				box-shadow: 0 18px 32px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.42);
 			}
